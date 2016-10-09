@@ -1,0 +1,18 @@
+Pod::Spec.new do |s|
+    s.name = "{{ name }}"
+    s.version = "{{ version }}"
+    s.summary = "{{ shortDescription }}"
+    s.description = <<-DESC
+{{ fullDescription }}
+DESC
+    s.social_media_url = "{{ socialMediaURL }}"
+    s.homepage = "{{ homepage }}"
+    s.license = "{ :type => "{{ license.type }}", :file => "{{ license.file }}" }
+    s.author = "{ {% for author in authors %} "{{ author.name }}" => "{{ author.email }}" {% endfor %} }
+    s.source = "{ :git => "{{ gitSource }}", :tag => s.version.to_s }
+    s.ios.deployment_target = '8.0'
+    s.osx.deployment_target = '10.9'
+    s.watchos.deployment_target = "2.0"
+    s.tvos.deployment_target = "9.0"
+    s.source_files = "{{ sourcePattern }}"
+end

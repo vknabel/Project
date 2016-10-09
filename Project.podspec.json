@@ -1,0 +1,24 @@
+{
+  "name": "Project",
+  "version": "1.0.0",
+  "summary": "Describe projects and generate files in Swift.",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  
+  "authors": {
+    "Valentin Knabel": "develop@vknabel.com",
+  },
+  
+  "source": {
+    "git": "https://github.com/vknabel/Project",
+    "tag": "1.0.0"
+  },
+  "source_files": [
+    "Sources/Project/*.swift",
+  ],
+  
+  
+  
+}

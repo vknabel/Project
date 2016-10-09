@@ -1,0 +1,28 @@
+{
+  {% if name %}"name": "{{ name }}",{% endif %}
+  {% if version %}"version": "{{ version }}",{% endif %}
+  {% if summary %}"summary": "{{ summary }}",{% endif %}
+  {% if license %}"license": {
+    "type": "{{ license.type }}",
+    "file": "{{ licensePath }}"
+  },{% endif %}
+  {% if homepage %}"homepage": "{{ homepage }}",{% endif %}
+  {% if authors %}"authors": {
+    {% for author in authors %}"{{ author.name }}": "{{ author.email }}",{% endfor %}
+  },{% endif %}
+  {% if socialMediaUrl %}"social_media_url": "{{ socialMediaUrl }}",{% endif %}
+  {% if source %}"source": {
+    "git": "{{ source }}",
+    "tag": "{{ version }}"
+  },{% endif %}
+  {% if sourceFiles %}"source_files": [
+    {% for file in sourceFiles %}"{{ file }}",{% endfor %}
+  ],{% endif %}
+  {% if platforms %}"platforms": {
+    {% for platform in platforms %}"{{ platform.name }}": "{{ platorm.target }}",{% endfor %}
+  },{% endif %}
+  {% if requiresArc %}"requires_arc": {{ requiresArc }},{% endif %}
+  {% if dependencies %}"dependencies": {
+    "PathKit": [ "~> 0.7.0" ]
+  }{% endif %}
+}

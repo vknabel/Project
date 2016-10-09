@@ -1,0 +1,1364 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {};
+    objectVersion = 46;
+    rootObject = __RootObject_;
+    objects = {
+        __RootObject_ = {
+            isa = PBXProject;
+            attributes = {LastUpgradeCheck = 9999;};
+            buildConfigurationList = ___RootConfs_;
+            compatibilityVersion = 'Xcode 3.2';
+            developmentRegion = English;
+            hasScannedForEncodings = 0;
+            knownRegions = (en);
+            mainGroup = ___RootGroup_;
+            productRefGroup = ____Products_;
+            projectDirPath = '';
+            projectRoot = '';
+            targets = (______Target_Spectre, ______Target_PathKit, ______Target_Stencil, ______Target_Commander, ______Target_CocoapodsProject, ______Target_GitProject, ______Target_LicenseProject, ______Target_PackageProject, ______Target_project, ______Target_ProjectDescription);
+        };
+        '__PBXFileRef_Package.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Package.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Package' = {
+            isa = PBXFileReference;
+            lastKnownFileType = folder;
+            name = 'Package';
+            path = 'Package';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Resources' = {
+            isa = PBXFileReference;
+            lastKnownFileType = folder;
+            name = 'Resources';
+            path = 'Resources';
+            sourceTree = '<group>';
+        };
+        ___RootGroup_ = {
+            isa = PBXGroup;
+            children = ('__PBXFileRef_Package.swift', _____Configs_, _____Sources_, '__PBXFileRef_Package','__PBXFileRef_Resources', Dependencies_, _______Tests_, ____Products_);
+            sourceTree = '<group>';
+        };
+        _______Group_Spectre = {
+            isa = PBXGroup;
+            name = 'Spectre';
+            path = 'Packages/Spectre-0.7.1/Sources';
+            sourceTree = '<group>';
+            children = ('__PBXFileRef_Packages/Spectre-0.7.1/Sources/Case.swift', '__PBXFileRef_Packages/Spectre-0.7.1/Sources/Context.swift', '__PBXFileRef_Packages/Spectre-0.7.1/Sources/Expectation.swift', '__PBXFileRef_Packages/Spectre-0.7.1/Sources/Failure.swift', '__PBXFileRef_Packages/Spectre-0.7.1/Sources/Global.swift', '__PBXFileRef_Packages/Spectre-0.7.1/Sources/GlobalContext.swift', '__PBXFileRef_Packages/Spectre-0.7.1/Sources/Reporter.swift', '__PBXFileRef_Packages/Spectre-0.7.1/Sources/Reporters.swift');
+        };
+        '__PBXFileRef_Packages/Spectre-0.7.1/Sources/Case.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Case.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Spectre-0.7.1/Sources/Context.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Context.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Spectre-0.7.1/Sources/Expectation.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Expectation.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Spectre-0.7.1/Sources/Failure.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Failure.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Spectre-0.7.1/Sources/Global.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Global.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Spectre-0.7.1/Sources/GlobalContext.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'GlobalContext.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Spectre-0.7.1/Sources/Reporter.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Reporter.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Spectre-0.7.1/Sources/Reporters.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Reporters.swift';
+            sourceTree = '<group>';
+        };
+        ______Target_Spectre = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = _______Confs_Spectre;
+            buildPhases = (CompilePhase_Spectre, ___LinkPhase_Spectre);
+            buildRules = ();
+            dependencies = ();
+            name = 'Spectre';
+            productName = Spectre;
+            productReference = _____Product_Spectre;
+            productType = 'com.apple.product-type.framework';
+        };
+        _____Product_Spectre = {
+            isa = PBXFileReference;
+            explicitFileType = 'wrapper.framework';
+            path = 'Spectre.framework';
+            sourceTree = BUILT_PRODUCTS_DIR;
+        };
+        CompilePhase_Spectre = {
+            isa = PBXSourcesBuildPhase;
+            files = ('__src_cc_ref_Packages/Spectre-0.7.1/Sources/Case.swift', '__src_cc_ref_Packages/Spectre-0.7.1/Sources/Context.swift', '__src_cc_ref_Packages/Spectre-0.7.1/Sources/Expectation.swift', '__src_cc_ref_Packages/Spectre-0.7.1/Sources/Failure.swift', '__src_cc_ref_Packages/Spectre-0.7.1/Sources/Global.swift', '__src_cc_ref_Packages/Spectre-0.7.1/Sources/GlobalContext.swift', '__src_cc_ref_Packages/Spectre-0.7.1/Sources/Reporter.swift', '__src_cc_ref_Packages/Spectre-0.7.1/Sources/Reporters.swift');
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        '__src_cc_ref_Packages/Spectre-0.7.1/Sources/Case.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Spectre-0.7.1/Sources/Case.swift';
+        };
+        '__src_cc_ref_Packages/Spectre-0.7.1/Sources/Context.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Spectre-0.7.1/Sources/Context.swift';
+        };
+        '__src_cc_ref_Packages/Spectre-0.7.1/Sources/Expectation.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Spectre-0.7.1/Sources/Expectation.swift';
+        };
+        '__src_cc_ref_Packages/Spectre-0.7.1/Sources/Failure.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Spectre-0.7.1/Sources/Failure.swift';
+        };
+        '__src_cc_ref_Packages/Spectre-0.7.1/Sources/Global.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Spectre-0.7.1/Sources/Global.swift';
+        };
+        '__src_cc_ref_Packages/Spectre-0.7.1/Sources/GlobalContext.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Spectre-0.7.1/Sources/GlobalContext.swift';
+        };
+        '__src_cc_ref_Packages/Spectre-0.7.1/Sources/Reporter.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Spectre-0.7.1/Sources/Reporter.swift';
+        };
+        '__src_cc_ref_Packages/Spectre-0.7.1/Sources/Reporters.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Spectre-0.7.1/Sources/Reporters.swift';
+        };
+        ___LinkPhase_Spectre = {
+            isa = PBXFrameworksBuildPhase;
+            files = ();
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        _______Confs_Spectre = {
+            isa = XCConfigurationList;
+            buildConfigurations = (___DebugConf_Spectre, _ReleaseConf_Spectre);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Debug;
+        };
+        ___DebugConf_Spectre = {
+            isa = XCBuildConfiguration;
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'ProjectDescription.xcodeproj/Spectre_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; PRODUCT_BUNDLE_IDENTIFIER = 'Spectre'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Debug;
+        };
+        _ReleaseConf_Spectre = {
+            isa = XCBuildConfiguration;
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'ProjectDescription.xcodeproj/Spectre_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; PRODUCT_BUNDLE_IDENTIFIER = 'Spectre'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Release;
+        };
+        __Dependency_Spectre = {
+            isa = PBXTargetDependency;
+            target = ______Target_Spectre;
+        };
+        _______Group_PathKit = {
+            isa = PBXGroup;
+            name = 'PathKit';
+            path = 'Packages/PathKit-0.7.0/Sources';
+            sourceTree = '<group>';
+            children = ('__PBXFileRef_Packages/PathKit-0.7.0/Sources/PathKit.swift');
+        };
+        '__PBXFileRef_Packages/PathKit-0.7.0/Sources/PathKit.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'PathKit.swift';
+            sourceTree = '<group>';
+        };
+        ______Target_PathKit = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = _______Confs_PathKit;
+            buildPhases = (CompilePhase_PathKit, ___LinkPhase_PathKit);
+            buildRules = ();
+            dependencies = (__Dependency_Spectre);
+            name = 'PathKit';
+            productName = PathKit;
+            productReference = _____Product_PathKit;
+            productType = 'com.apple.product-type.framework';
+        };
+        _____Product_PathKit = {
+            isa = PBXFileReference;
+            explicitFileType = 'wrapper.framework';
+            path = 'PathKit.framework';
+            sourceTree = BUILT_PRODUCTS_DIR;
+        };
+        CompilePhase_PathKit = {
+            isa = PBXSourcesBuildPhase;
+            files = ('__src_cc_ref_Packages/PathKit-0.7.0/Sources/PathKit.swift');
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        '__src_cc_ref_Packages/PathKit-0.7.0/Sources/PathKit.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/PathKit-0.7.0/Sources/PathKit.swift';
+        };
+        ___LinkPhase_PathKit = {
+            isa = PBXFrameworksBuildPhase;
+            files = (_LinkFileRef_Spectre_via_PathKit);
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        _LinkFileRef_Spectre_via_PathKit = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Spectre;
+        };
+        _______Confs_PathKit = {
+            isa = XCConfigurationList;
+            buildConfigurations = (___DebugConf_PathKit, _ReleaseConf_PathKit);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Debug;
+        };
+        ___DebugConf_PathKit = {
+            isa = XCBuildConfiguration;
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'ProjectDescription.xcodeproj/PathKit_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; PRODUCT_BUNDLE_IDENTIFIER = 'PathKit'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Debug;
+        };
+        _ReleaseConf_PathKit = {
+            isa = XCBuildConfiguration;
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'ProjectDescription.xcodeproj/PathKit_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; PRODUCT_BUNDLE_IDENTIFIER = 'PathKit'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Release;
+        };
+        __Dependency_PathKit = {
+            isa = PBXTargetDependency;
+            target = ______Target_PathKit;
+        };
+        _______Group_Stencil = {
+            isa = PBXGroup;
+            name = 'Stencil';
+            path = 'Packages/Stencil-0.6.0/Sources';
+            sourceTree = '<group>';
+            children = ('__PBXFileRef_Packages/Stencil-0.6.0/Sources/Context.swift', '__PBXFileRef_Packages/Stencil-0.6.0/Sources/Filters.swift', '__PBXFileRef_Packages/Stencil-0.6.0/Sources/ForTag.swift', '__PBXFileRef_Packages/Stencil-0.6.0/Sources/IfTag.swift', '__PBXFileRef_Packages/Stencil-0.6.0/Sources/Include.swift', '__PBXFileRef_Packages/Stencil-0.6.0/Sources/Inheritence.swift', '__PBXFileRef_Packages/Stencil-0.6.0/Sources/Lexer.swift', '__PBXFileRef_Packages/Stencil-0.6.0/Sources/Namespace.swift', '__PBXFileRef_Packages/Stencil-0.6.0/Sources/Node.swift', '__PBXFileRef_Packages/Stencil-0.6.0/Sources/NowTag.swift', '__PBXFileRef_Packages/Stencil-0.6.0/Sources/Parser.swift', '__PBXFileRef_Packages/Stencil-0.6.0/Sources/Template.swift', '__PBXFileRef_Packages/Stencil-0.6.0/Sources/TemplateLoader.swift', '__PBXFileRef_Packages/Stencil-0.6.0/Sources/Tokenizer.swift', '__PBXFileRef_Packages/Stencil-0.6.0/Sources/Variable.swift');
+        };
+        '__PBXFileRef_Packages/Stencil-0.6.0/Sources/Context.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Context.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Stencil-0.6.0/Sources/Filters.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Filters.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Stencil-0.6.0/Sources/ForTag.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'ForTag.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Stencil-0.6.0/Sources/IfTag.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'IfTag.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Stencil-0.6.0/Sources/Include.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Include.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Stencil-0.6.0/Sources/Inheritence.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Inheritence.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Stencil-0.6.0/Sources/Lexer.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Lexer.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Stencil-0.6.0/Sources/Namespace.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Namespace.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Stencil-0.6.0/Sources/Node.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Node.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Stencil-0.6.0/Sources/NowTag.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'NowTag.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Stencil-0.6.0/Sources/Parser.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Parser.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Stencil-0.6.0/Sources/Template.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Template.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Stencil-0.6.0/Sources/TemplateLoader.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'TemplateLoader.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Stencil-0.6.0/Sources/Tokenizer.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Tokenizer.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Stencil-0.6.0/Sources/Variable.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Variable.swift';
+            sourceTree = '<group>';
+        };
+        ______Target_Stencil = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = _______Confs_Stencil;
+            buildPhases = (CompilePhase_Stencil, ___LinkPhase_Stencil);
+            buildRules = ();
+            dependencies = (__Dependency_Spectre, __Dependency_PathKit);
+            name = 'Stencil';
+            productName = Stencil;
+            productReference = _____Product_Stencil;
+            productType = 'com.apple.product-type.framework';
+        };
+        _____Product_Stencil = {
+            isa = PBXFileReference;
+            explicitFileType = 'wrapper.framework';
+            path = 'Stencil.framework';
+            sourceTree = BUILT_PRODUCTS_DIR;
+        };
+        CompilePhase_Stencil = {
+            isa = PBXSourcesBuildPhase;
+            files = ('__src_cc_ref_Packages/Stencil-0.6.0/Sources/Context.swift', '__src_cc_ref_Packages/Stencil-0.6.0/Sources/Filters.swift', '__src_cc_ref_Packages/Stencil-0.6.0/Sources/ForTag.swift', '__src_cc_ref_Packages/Stencil-0.6.0/Sources/IfTag.swift', '__src_cc_ref_Packages/Stencil-0.6.0/Sources/Include.swift', '__src_cc_ref_Packages/Stencil-0.6.0/Sources/Inheritence.swift', '__src_cc_ref_Packages/Stencil-0.6.0/Sources/Lexer.swift', '__src_cc_ref_Packages/Stencil-0.6.0/Sources/Namespace.swift', '__src_cc_ref_Packages/Stencil-0.6.0/Sources/Node.swift', '__src_cc_ref_Packages/Stencil-0.6.0/Sources/NowTag.swift', '__src_cc_ref_Packages/Stencil-0.6.0/Sources/Parser.swift', '__src_cc_ref_Packages/Stencil-0.6.0/Sources/Template.swift', '__src_cc_ref_Packages/Stencil-0.6.0/Sources/TemplateLoader.swift', '__src_cc_ref_Packages/Stencil-0.6.0/Sources/Tokenizer.swift', '__src_cc_ref_Packages/Stencil-0.6.0/Sources/Variable.swift');
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        '__src_cc_ref_Packages/Stencil-0.6.0/Sources/Context.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Stencil-0.6.0/Sources/Context.swift';
+        };
+        '__src_cc_ref_Packages/Stencil-0.6.0/Sources/Filters.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Stencil-0.6.0/Sources/Filters.swift';
+        };
+        '__src_cc_ref_Packages/Stencil-0.6.0/Sources/ForTag.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Stencil-0.6.0/Sources/ForTag.swift';
+        };
+        '__src_cc_ref_Packages/Stencil-0.6.0/Sources/IfTag.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Stencil-0.6.0/Sources/IfTag.swift';
+        };
+        '__src_cc_ref_Packages/Stencil-0.6.0/Sources/Include.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Stencil-0.6.0/Sources/Include.swift';
+        };
+        '__src_cc_ref_Packages/Stencil-0.6.0/Sources/Inheritence.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Stencil-0.6.0/Sources/Inheritence.swift';
+        };
+        '__src_cc_ref_Packages/Stencil-0.6.0/Sources/Lexer.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Stencil-0.6.0/Sources/Lexer.swift';
+        };
+        '__src_cc_ref_Packages/Stencil-0.6.0/Sources/Namespace.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Stencil-0.6.0/Sources/Namespace.swift';
+        };
+        '__src_cc_ref_Packages/Stencil-0.6.0/Sources/Node.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Stencil-0.6.0/Sources/Node.swift';
+        };
+        '__src_cc_ref_Packages/Stencil-0.6.0/Sources/NowTag.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Stencil-0.6.0/Sources/NowTag.swift';
+        };
+        '__src_cc_ref_Packages/Stencil-0.6.0/Sources/Parser.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Stencil-0.6.0/Sources/Parser.swift';
+        };
+        '__src_cc_ref_Packages/Stencil-0.6.0/Sources/Template.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Stencil-0.6.0/Sources/Template.swift';
+        };
+        '__src_cc_ref_Packages/Stencil-0.6.0/Sources/TemplateLoader.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Stencil-0.6.0/Sources/TemplateLoader.swift';
+        };
+        '__src_cc_ref_Packages/Stencil-0.6.0/Sources/Tokenizer.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Stencil-0.6.0/Sources/Tokenizer.swift';
+        };
+        '__src_cc_ref_Packages/Stencil-0.6.0/Sources/Variable.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Stencil-0.6.0/Sources/Variable.swift';
+        };
+        ___LinkPhase_Stencil = {
+            isa = PBXFrameworksBuildPhase;
+            files = (_LinkFileRef_Spectre_via_Stencil, _LinkFileRef_PathKit_via_Stencil);
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        _LinkFileRef_Spectre_via_Stencil = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Spectre;
+        };
+        _LinkFileRef_PathKit_via_Stencil = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_PathKit;
+        };
+        _______Confs_Stencil = {
+            isa = XCConfigurationList;
+            buildConfigurations = (___DebugConf_Stencil, _ReleaseConf_Stencil);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Debug;
+        };
+        ___DebugConf_Stencil = {
+            isa = XCBuildConfiguration;
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'ProjectDescription.xcodeproj/Stencil_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; PRODUCT_BUNDLE_IDENTIFIER = 'Stencil'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Debug;
+        };
+        _ReleaseConf_Stencil = {
+            isa = XCBuildConfiguration;
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'ProjectDescription.xcodeproj/Stencil_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; PRODUCT_BUNDLE_IDENTIFIER = 'Stencil'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Release;
+        };
+        __Dependency_Stencil = {
+            isa = PBXTargetDependency;
+            target = ______Target_Stencil;
+        };
+        _______Group_Commander = {
+            isa = PBXGroup;
+            name = 'Commander';
+            path = 'Packages/Commander-0.5.0/Sources';
+            sourceTree = '<group>';
+            children = ('__PBXFileRef_Packages/Commander-0.5.0/Sources/ArgumentConvertible.swift', '__PBXFileRef_Packages/Commander-0.5.0/Sources/ArgumentDescription.swift', '__PBXFileRef_Packages/Commander-0.5.0/Sources/ArgumentParser.swift', '__PBXFileRef_Packages/Commander-0.5.0/Sources/Command.swift', '__PBXFileRef_Packages/Commander-0.5.0/Sources/CommandRunner.swift', '__PBXFileRef_Packages/Commander-0.5.0/Sources/Commands.swift', '__PBXFileRef_Packages/Commander-0.5.0/Sources/CommandType.swift', '__PBXFileRef_Packages/Commander-0.5.0/Sources/Error.swift', '__PBXFileRef_Packages/Commander-0.5.0/Sources/Group.swift');
+        };
+        '__PBXFileRef_Packages/Commander-0.5.0/Sources/ArgumentConvertible.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'ArgumentConvertible.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Commander-0.5.0/Sources/ArgumentDescription.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'ArgumentDescription.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Commander-0.5.0/Sources/ArgumentParser.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'ArgumentParser.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Commander-0.5.0/Sources/Command.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Command.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Commander-0.5.0/Sources/CommandRunner.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'CommandRunner.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Commander-0.5.0/Sources/Commands.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Commands.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Commander-0.5.0/Sources/CommandType.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'CommandType.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Commander-0.5.0/Sources/Error.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Error.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/Commander-0.5.0/Sources/Group.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Group.swift';
+            sourceTree = '<group>';
+        };
+        ______Target_Commander = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = _______Confs_Commander;
+            buildPhases = (CompilePhase_Commander, ___LinkPhase_Commander);
+            buildRules = ();
+            dependencies = (__Dependency_Spectre);
+            name = 'Commander';
+            productName = Commander;
+            productReference = _____Product_Commander;
+            productType = 'com.apple.product-type.framework';
+        };
+        _____Product_Commander = {
+            isa = PBXFileReference;
+            explicitFileType = 'wrapper.framework';
+            path = 'Commander.framework';
+            sourceTree = BUILT_PRODUCTS_DIR;
+        };
+        CompilePhase_Commander = {
+            isa = PBXSourcesBuildPhase;
+            files = ('__src_cc_ref_Packages/Commander-0.5.0/Sources/ArgumentConvertible.swift', '__src_cc_ref_Packages/Commander-0.5.0/Sources/ArgumentDescription.swift', '__src_cc_ref_Packages/Commander-0.5.0/Sources/ArgumentParser.swift', '__src_cc_ref_Packages/Commander-0.5.0/Sources/Command.swift', '__src_cc_ref_Packages/Commander-0.5.0/Sources/CommandRunner.swift', '__src_cc_ref_Packages/Commander-0.5.0/Sources/Commands.swift', '__src_cc_ref_Packages/Commander-0.5.0/Sources/CommandType.swift', '__src_cc_ref_Packages/Commander-0.5.0/Sources/Error.swift', '__src_cc_ref_Packages/Commander-0.5.0/Sources/Group.swift');
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        '__src_cc_ref_Packages/Commander-0.5.0/Sources/ArgumentConvertible.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Commander-0.5.0/Sources/ArgumentConvertible.swift';
+        };
+        '__src_cc_ref_Packages/Commander-0.5.0/Sources/ArgumentDescription.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Commander-0.5.0/Sources/ArgumentDescription.swift';
+        };
+        '__src_cc_ref_Packages/Commander-0.5.0/Sources/ArgumentParser.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Commander-0.5.0/Sources/ArgumentParser.swift';
+        };
+        '__src_cc_ref_Packages/Commander-0.5.0/Sources/Command.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Commander-0.5.0/Sources/Command.swift';
+        };
+        '__src_cc_ref_Packages/Commander-0.5.0/Sources/CommandRunner.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Commander-0.5.0/Sources/CommandRunner.swift';
+        };
+        '__src_cc_ref_Packages/Commander-0.5.0/Sources/Commands.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Commander-0.5.0/Sources/Commands.swift';
+        };
+        '__src_cc_ref_Packages/Commander-0.5.0/Sources/CommandType.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Commander-0.5.0/Sources/CommandType.swift';
+        };
+        '__src_cc_ref_Packages/Commander-0.5.0/Sources/Error.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Commander-0.5.0/Sources/Error.swift';
+        };
+        '__src_cc_ref_Packages/Commander-0.5.0/Sources/Group.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/Commander-0.5.0/Sources/Group.swift';
+        };
+        ___LinkPhase_Commander = {
+            isa = PBXFrameworksBuildPhase;
+            files = (_LinkFileRef_Spectre_via_Commander);
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        _LinkFileRef_Spectre_via_Commander = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Spectre;
+        };
+        _______Confs_Commander = {
+            isa = XCConfigurationList;
+            buildConfigurations = (___DebugConf_Commander, _ReleaseConf_Commander);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Debug;
+        };
+        ___DebugConf_Commander = {
+            isa = XCBuildConfiguration;
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'ProjectDescription.xcodeproj/Commander_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; PRODUCT_BUNDLE_IDENTIFIER = 'Commander'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Debug;
+        };
+        _ReleaseConf_Commander = {
+            isa = XCBuildConfiguration;
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'ProjectDescription.xcodeproj/Commander_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; PRODUCT_BUNDLE_IDENTIFIER = 'Commander'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Release;
+        };
+        __Dependency_Commander = {
+            isa = PBXTargetDependency;
+            target = ______Target_Commander;
+        };
+        _______Group_CocoapodsProject = {
+            isa = PBXGroup;
+            name = 'CocoapodsProject';
+            path = 'Sources/CocoapodsProject';
+            sourceTree = '<group>';
+            children = ('__PBXFileRef_Sources/CocoapodsProject/Actions.swift', '__PBXFileRef_Sources/CocoapodsProject/Declaration.swift', '__PBXFileRef_Sources/CocoapodsProject/TemplateNames.swift');
+        };
+        '__PBXFileRef_Sources/CocoapodsProject/Actions.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Actions.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Sources/CocoapodsProject/Declaration.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Declaration.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Sources/CocoapodsProject/TemplateNames.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'TemplateNames.swift';
+            sourceTree = '<group>';
+        };
+        ______Target_CocoapodsProject = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = _______Confs_CocoapodsProject;
+            buildPhases = (CompilePhase_CocoapodsProject, ___LinkPhase_CocoapodsProject);
+            buildRules = ();
+            dependencies = (__Dependency_Spectre, __Dependency_PathKit, __Dependency_Stencil, __Dependency_Commander, __Dependency_ProjectDescription);
+            name = 'CocoapodsProject';
+            productName = CocoapodsProject;
+            productReference = _____Product_CocoapodsProject;
+            productType = 'com.apple.product-type.framework';
+        };
+        _____Product_CocoapodsProject = {
+            isa = PBXFileReference;
+            explicitFileType = 'wrapper.framework';
+            path = 'CocoapodsProject.framework';
+            sourceTree = BUILT_PRODUCTS_DIR;
+        };
+        CompilePhase_CocoapodsProject = {
+            isa = PBXSourcesBuildPhase;
+            files = ('__src_cc_ref_Sources/CocoapodsProject/Actions.swift', '__src_cc_ref_Sources/CocoapodsProject/Declaration.swift', '__src_cc_ref_Sources/CocoapodsProject/TemplateNames.swift');
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        '__src_cc_ref_Sources/CocoapodsProject/Actions.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Sources/CocoapodsProject/Actions.swift';
+        };
+        '__src_cc_ref_Sources/CocoapodsProject/Declaration.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Sources/CocoapodsProject/Declaration.swift';
+        };
+        '__src_cc_ref_Sources/CocoapodsProject/TemplateNames.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Sources/CocoapodsProject/TemplateNames.swift';
+        };
+        ___LinkPhase_CocoapodsProject = {
+            isa = PBXFrameworksBuildPhase;
+            files = (_LinkFileRef_Spectre_via_CocoapodsProject, _LinkFileRef_PathKit_via_CocoapodsProject, _LinkFileRef_Stencil_via_CocoapodsProject, _LinkFileRef_Commander_via_CocoapodsProject, _LinkFileRef_ProjectDescription_via_CocoapodsProject);
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        _LinkFileRef_Spectre_via_CocoapodsProject = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Spectre;
+        };
+        _LinkFileRef_PathKit_via_CocoapodsProject = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_PathKit;
+        };
+        _LinkFileRef_Stencil_via_CocoapodsProject = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Stencil;
+        };
+        _LinkFileRef_Commander_via_CocoapodsProject = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Commander;
+        };
+        _LinkFileRef_ProjectDescription_via_CocoapodsProject = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_ProjectDescription;
+        };
+        _______Confs_CocoapodsProject = {
+            isa = XCConfigurationList;
+            buildConfigurations = (___DebugConf_CocoapodsProject, _ReleaseConf_CocoapodsProject);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Debug;
+        };
+        ___DebugConf_CocoapodsProject = {
+            isa = XCBuildConfiguration;
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'ProjectDescription.xcodeproj/CocoapodsProject_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; PRODUCT_BUNDLE_IDENTIFIER = 'CocoapodsProject'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Debug;
+        };
+        _ReleaseConf_CocoapodsProject = {
+            isa = XCBuildConfiguration;
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'ProjectDescription.xcodeproj/CocoapodsProject_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; PRODUCT_BUNDLE_IDENTIFIER = 'CocoapodsProject'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Release;
+        };
+        __Dependency_CocoapodsProject = {
+            isa = PBXTargetDependency;
+            target = ______Target_CocoapodsProject;
+        };
+        _______Group_GitProject = {
+            isa = PBXGroup;
+            name = 'GitProject';
+            path = 'Sources/GitProject';
+            sourceTree = '<group>';
+            children = ('__PBXFileRef_Sources/GitProject/Actions.swift', '__PBXFileRef_Sources/GitProject/Declaration.swift', '__PBXFileRef_Sources/GitProject/TemplateNames.swift');
+        };
+        '__PBXFileRef_Sources/GitProject/Actions.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Actions.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Sources/GitProject/Declaration.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Declaration.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Sources/GitProject/TemplateNames.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'TemplateNames.swift';
+            sourceTree = '<group>';
+        };
+        ______Target_GitProject = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = _______Confs_GitProject;
+            buildPhases = (CompilePhase_GitProject, ___LinkPhase_GitProject);
+            buildRules = ();
+            dependencies = (__Dependency_Spectre, __Dependency_PathKit, __Dependency_Stencil, __Dependency_Commander, __Dependency_ProjectDescription);
+            name = 'GitProject';
+            productName = GitProject;
+            productReference = _____Product_GitProject;
+            productType = 'com.apple.product-type.framework';
+        };
+        _____Product_GitProject = {
+            isa = PBXFileReference;
+            explicitFileType = 'wrapper.framework';
+            path = 'GitProject.framework';
+            sourceTree = BUILT_PRODUCTS_DIR;
+        };
+        CompilePhase_GitProject = {
+            isa = PBXSourcesBuildPhase;
+            files = ('__src_cc_ref_Sources/GitProject/Actions.swift', '__src_cc_ref_Sources/GitProject/Declaration.swift', '__src_cc_ref_Sources/GitProject/TemplateNames.swift');
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        '__src_cc_ref_Sources/GitProject/Actions.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Sources/GitProject/Actions.swift';
+        };
+        '__src_cc_ref_Sources/GitProject/Declaration.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Sources/GitProject/Declaration.swift';
+        };
+        '__src_cc_ref_Sources/GitProject/TemplateNames.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Sources/GitProject/TemplateNames.swift';
+        };
+        ___LinkPhase_GitProject = {
+            isa = PBXFrameworksBuildPhase;
+            files = (_LinkFileRef_Spectre_via_GitProject, _LinkFileRef_PathKit_via_GitProject, _LinkFileRef_Stencil_via_GitProject, _LinkFileRef_Commander_via_GitProject, _LinkFileRef_ProjectDescription_via_GitProject);
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        _LinkFileRef_Spectre_via_GitProject = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Spectre;
+        };
+        _LinkFileRef_PathKit_via_GitProject = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_PathKit;
+        };
+        _LinkFileRef_Stencil_via_GitProject = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Stencil;
+        };
+        _LinkFileRef_Commander_via_GitProject = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Commander;
+        };
+        _LinkFileRef_ProjectDescription_via_GitProject = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_ProjectDescription;
+        };
+        _______Confs_GitProject = {
+            isa = XCConfigurationList;
+            buildConfigurations = (___DebugConf_GitProject, _ReleaseConf_GitProject);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Debug;
+        };
+        ___DebugConf_GitProject = {
+            isa = XCBuildConfiguration;
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'ProjectDescription.xcodeproj/GitProject_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; PRODUCT_BUNDLE_IDENTIFIER = 'GitProject'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Debug;
+        };
+        _ReleaseConf_GitProject = {
+            isa = XCBuildConfiguration;
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'ProjectDescription.xcodeproj/GitProject_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; PRODUCT_BUNDLE_IDENTIFIER = 'GitProject'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Release;
+        };
+        __Dependency_GitProject = {
+            isa = PBXTargetDependency;
+            target = ______Target_GitProject;
+        };
+        _______Group_LicenseProject = {
+            isa = PBXGroup;
+            name = 'LicenseProject';
+            path = 'Sources/LicenseProject';
+            sourceTree = '<group>';
+            children = ('__PBXFileRef_Sources/LicenseProject/Actions.swift', '__PBXFileRef_Sources/LicenseProject/Renderings.swift', '__PBXFileRef_Sources/LicenseProject/TemplateNames.swift');
+        };
+        '__PBXFileRef_Sources/LicenseProject/Actions.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Actions.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Sources/LicenseProject/Renderings.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Renderings.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Sources/LicenseProject/TemplateNames.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'TemplateNames.swift';
+            sourceTree = '<group>';
+        };
+        ______Target_LicenseProject = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = _______Confs_LicenseProject;
+            buildPhases = (CompilePhase_LicenseProject, ___LinkPhase_LicenseProject);
+            buildRules = ();
+            dependencies = (__Dependency_Spectre, __Dependency_PathKit, __Dependency_Stencil, __Dependency_Commander, __Dependency_ProjectDescription);
+            name = 'LicenseProject';
+            productName = LicenseProject;
+            productReference = _____Product_LicenseProject;
+            productType = 'com.apple.product-type.framework';
+        };
+        _____Product_LicenseProject = {
+            isa = PBXFileReference;
+            explicitFileType = 'wrapper.framework';
+            path = 'LicenseProject.framework';
+            sourceTree = BUILT_PRODUCTS_DIR;
+        };
+        CompilePhase_LicenseProject = {
+            isa = PBXSourcesBuildPhase;
+            files = ('__src_cc_ref_Sources/LicenseProject/Actions.swift', '__src_cc_ref_Sources/LicenseProject/Renderings.swift', '__src_cc_ref_Sources/LicenseProject/TemplateNames.swift');
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        '__src_cc_ref_Sources/LicenseProject/Actions.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Sources/LicenseProject/Actions.swift';
+        };
+        '__src_cc_ref_Sources/LicenseProject/Renderings.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Sources/LicenseProject/Renderings.swift';
+        };
+        '__src_cc_ref_Sources/LicenseProject/TemplateNames.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Sources/LicenseProject/TemplateNames.swift';
+        };
+        ___LinkPhase_LicenseProject = {
+            isa = PBXFrameworksBuildPhase;
+            files = (_LinkFileRef_Spectre_via_LicenseProject, _LinkFileRef_PathKit_via_LicenseProject, _LinkFileRef_Stencil_via_LicenseProject, _LinkFileRef_Commander_via_LicenseProject, _LinkFileRef_ProjectDescription_via_LicenseProject);
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        _LinkFileRef_Spectre_via_LicenseProject = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Spectre;
+        };
+        _LinkFileRef_PathKit_via_LicenseProject = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_PathKit;
+        };
+        _LinkFileRef_Stencil_via_LicenseProject = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Stencil;
+        };
+        _LinkFileRef_Commander_via_LicenseProject = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Commander;
+        };
+        _LinkFileRef_ProjectDescription_via_LicenseProject = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_ProjectDescription;
+        };
+        _______Confs_LicenseProject = {
+            isa = XCConfigurationList;
+            buildConfigurations = (___DebugConf_LicenseProject, _ReleaseConf_LicenseProject);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Debug;
+        };
+        ___DebugConf_LicenseProject = {
+            isa = XCBuildConfiguration;
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'ProjectDescription.xcodeproj/LicenseProject_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; PRODUCT_BUNDLE_IDENTIFIER = 'LicenseProject'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Debug;
+        };
+        _ReleaseConf_LicenseProject = {
+            isa = XCBuildConfiguration;
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'ProjectDescription.xcodeproj/LicenseProject_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; PRODUCT_BUNDLE_IDENTIFIER = 'LicenseProject'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Release;
+        };
+        __Dependency_LicenseProject = {
+            isa = PBXTargetDependency;
+            target = ______Target_LicenseProject;
+        };
+        _______Group_PackageProject = {
+            isa = PBXGroup;
+            name = 'PackageProject';
+            path = 'Sources/PackageProject';
+            sourceTree = '<group>';
+            children = ('__PBXFileRef_Sources/PackageProject/Actions.swift', '__PBXFileRef_Sources/PackageProject/Declaration.swift', '__PBXFileRef_Sources/PackageProject/TemplateNames.swift');
+        };
+        '__PBXFileRef_Sources/PackageProject/Actions.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Actions.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Sources/PackageProject/Declaration.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Declaration.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Sources/PackageProject/TemplateNames.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'TemplateNames.swift';
+            sourceTree = '<group>';
+        };
+        ______Target_PackageProject = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = _______Confs_PackageProject;
+            buildPhases = (CompilePhase_PackageProject, ___LinkPhase_PackageProject);
+            buildRules = ();
+            dependencies = (__Dependency_Spectre, __Dependency_PathKit, __Dependency_Stencil, __Dependency_Commander, __Dependency_ProjectDescription);
+            name = 'PackageProject';
+            productName = PackageProject;
+            productReference = _____Product_PackageProject;
+            productType = 'com.apple.product-type.framework';
+        };
+        _____Product_PackageProject = {
+            isa = PBXFileReference;
+            explicitFileType = 'wrapper.framework';
+            path = 'PackageProject.framework';
+            sourceTree = BUILT_PRODUCTS_DIR;
+        };
+        CompilePhase_PackageProject = {
+            isa = PBXSourcesBuildPhase;
+            files = ('__src_cc_ref_Sources/PackageProject/Actions.swift', '__src_cc_ref_Sources/PackageProject/Declaration.swift', '__src_cc_ref_Sources/PackageProject/TemplateNames.swift');
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        '__src_cc_ref_Sources/PackageProject/Actions.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Sources/PackageProject/Actions.swift';
+        };
+        '__src_cc_ref_Sources/PackageProject/Declaration.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Sources/PackageProject/Declaration.swift';
+        };
+        '__src_cc_ref_Sources/PackageProject/TemplateNames.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Sources/PackageProject/TemplateNames.swift';
+        };
+        ___LinkPhase_PackageProject = {
+            isa = PBXFrameworksBuildPhase;
+            files = (_LinkFileRef_Spectre_via_PackageProject, _LinkFileRef_PathKit_via_PackageProject, _LinkFileRef_Stencil_via_PackageProject, _LinkFileRef_Commander_via_PackageProject, _LinkFileRef_ProjectDescription_via_PackageProject);
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        _LinkFileRef_Spectre_via_PackageProject = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Spectre;
+        };
+        _LinkFileRef_PathKit_via_PackageProject = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_PathKit;
+        };
+        _LinkFileRef_Stencil_via_PackageProject = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Stencil;
+        };
+        _LinkFileRef_Commander_via_PackageProject = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Commander;
+        };
+        _LinkFileRef_ProjectDescription_via_PackageProject = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_ProjectDescription;
+        };
+        _______Confs_PackageProject = {
+            isa = XCConfigurationList;
+            buildConfigurations = (___DebugConf_PackageProject, _ReleaseConf_PackageProject);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Debug;
+        };
+        ___DebugConf_PackageProject = {
+            isa = XCBuildConfiguration;
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'ProjectDescription.xcodeproj/PackageProject_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; PRODUCT_BUNDLE_IDENTIFIER = 'PackageProject'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Debug;
+        };
+        _ReleaseConf_PackageProject = {
+            isa = XCBuildConfiguration;
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'ProjectDescription.xcodeproj/PackageProject_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; PRODUCT_BUNDLE_IDENTIFIER = 'PackageProject'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Release;
+        };
+        __Dependency_PackageProject = {
+            isa = PBXTargetDependency;
+            target = ______Target_PackageProject;
+        };
+        _______Group_project = {
+            isa = PBXGroup;
+            name = 'project';
+            path = 'Sources/project';
+            sourceTree = '<group>';
+            children = ('__PBXFileRef_Sources/project/main.swift');
+        };
+        '__PBXFileRef_Sources/project/main.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'main.swift';
+            sourceTree = '<group>';
+        };
+        ______Target_project = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = _______Confs_project;
+            buildPhases = (CompilePhase_project, ___LinkPhase_project);
+            buildRules = ();
+            dependencies = (__Dependency_Spectre, __Dependency_PathKit, __Dependency_Stencil, __Dependency_Commander, __Dependency_ProjectDescription, __Dependency_CocoapodsProject, __Dependency_GitProject, __Dependency_LicenseProject, __Dependency_PackageProject);
+            name = 'project';
+            productName = project;
+            productReference = _____Product_project;
+            productType = 'com.apple.product-type.tool';
+        };
+        _____Product_project = {
+            isa = PBXFileReference;
+            explicitFileType = 'compiled.mach-o.executable';
+            path = 'project';
+            sourceTree = BUILT_PRODUCTS_DIR;
+        };
+        CompilePhase_project = {
+            isa = PBXSourcesBuildPhase;
+            files = ('__src_cc_ref_Sources/project/main.swift');
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        '__src_cc_ref_Sources/project/main.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Sources/project/main.swift';
+        };
+        ___LinkPhase_project = {
+            isa = PBXFrameworksBuildPhase;
+            files = (_LinkFileRef_Spectre_via_project, _LinkFileRef_PathKit_via_project, _LinkFileRef_Stencil_via_project, _LinkFileRef_Commander_via_project, _LinkFileRef_ProjectDescription_via_project, _LinkFileRef_CocoapodsProject_via_project, _LinkFileRef_GitProject_via_project, _LinkFileRef_LicenseProject_via_project, _LinkFileRef_PackageProject_via_project);
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        _LinkFileRef_Spectre_via_project = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Spectre;
+        };
+        _LinkFileRef_PathKit_via_project = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_PathKit;
+        };
+        _LinkFileRef_Stencil_via_project = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Stencil;
+        };
+        _LinkFileRef_Commander_via_project = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Commander;
+        };
+        _LinkFileRef_ProjectDescription_via_project = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_ProjectDescription;
+        };
+        _LinkFileRef_CocoapodsProject_via_project = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_CocoapodsProject;
+        };
+        _LinkFileRef_GitProject_via_project = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_GitProject;
+        };
+        _LinkFileRef_LicenseProject_via_project = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_LicenseProject;
+        };
+        _LinkFileRef_PackageProject_via_project = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_PackageProject;
+        };
+        _______Confs_project = {
+            isa = XCConfigurationList;
+            buildConfigurations = (___DebugConf_project, _ReleaseConf_project);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Debug;
+        };
+        ___DebugConf_project = {
+            isa = XCBuildConfiguration;
+            buildSettings = { LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; OTHER_SWIFT_FLAGS = '$(inherited)'; SWIFT_FORCE_STATIC_LINK_STDLIB = 'NO'; SWIFT_FORCE_DYNAMIC_LINK_STDLIB = 'YES'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; OTHER_LDFLAGS = '$(inherited)'; SWIFT_VERSION = '3.0'; };
+            name = Debug;
+        };
+        _ReleaseConf_project = {
+            isa = XCBuildConfiguration;
+            buildSettings = { LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; OTHER_SWIFT_FLAGS = '$(inherited)'; SWIFT_FORCE_STATIC_LINK_STDLIB = 'NO'; SWIFT_FORCE_DYNAMIC_LINK_STDLIB = 'YES'; OTHER_LDFLAGS = '$(inherited)'; SWIFT_VERSION = '3.0'; };
+            name = Release;
+        };
+        __Dependency_project = {
+            isa = PBXTargetDependency;
+            target = ______Target_project;
+        };
+        _______Group_ProjectDescription = {
+            isa = PBXGroup;
+            name = 'ProjectDescription';
+            path = 'Sources/ProjectDescription';
+            sourceTree = '<group>';
+            children = ('__PBXFileRef_Sources/ProjectDescription/Action+Convenience.swift', '__PBXFileRef_Sources/ProjectDescription/Action.swift', '__PBXFileRef_Sources/ProjectDescription/Author.swift', '__PBXFileRef_Sources/ProjectDescription/InlineTemplate.swift', '__PBXFileRef_Sources/ProjectDescription/License.swift', '__PBXFileRef_Sources/ProjectDescription/Project+Additions.swift', '__PBXFileRef_Sources/ProjectDescription/Project.swift', '__PBXFileRef_Sources/ProjectDescription/Rendered+Convenience.swift', '__PBXFileRef_Sources/ProjectDescription/Rendered.swift', '__PBXFileRef_Sources/ProjectDescription/SubContext.swift', '__PBXFileRef_Sources/ProjectDescription/SwiftVersion.swift', '__PBXFileRef_Sources/ProjectDescription/TemplateName.swift');
+        };
+        '__PBXFileRef_Sources/ProjectDescription/Action+Convenience.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Action+Convenience.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Sources/ProjectDescription/Action.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Action.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Sources/ProjectDescription/Author.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Author.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Sources/ProjectDescription/InlineTemplate.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'InlineTemplate.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Sources/ProjectDescription/License.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'License.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Sources/ProjectDescription/Project+Additions.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Project+Additions.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Sources/ProjectDescription/Project.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Project.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Sources/ProjectDescription/Rendered+Convenience.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Rendered+Convenience.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Sources/ProjectDescription/Rendered.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Rendered.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Sources/ProjectDescription/SubContext.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'SubContext.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Sources/ProjectDescription/SwiftVersion.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'SwiftVersion.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Sources/ProjectDescription/TemplateName.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'TemplateName.swift';
+            sourceTree = '<group>';
+        };
+        ______Target_ProjectDescription = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = _______Confs_ProjectDescription;
+            buildPhases = (CompilePhase_ProjectDescription, ___LinkPhase_ProjectDescription);
+            buildRules = ();
+            dependencies = (__Dependency_Spectre, __Dependency_PathKit, __Dependency_Stencil, __Dependency_Commander);
+            name = 'ProjectDescription';
+            productName = ProjectDescription;
+            productReference = _____Product_ProjectDescription;
+            productType = 'com.apple.product-type.framework';
+        };
+        _____Product_ProjectDescription = {
+            isa = PBXFileReference;
+            explicitFileType = 'wrapper.framework';
+            path = 'ProjectDescription.framework';
+            sourceTree = BUILT_PRODUCTS_DIR;
+        };
+        CompilePhase_ProjectDescription = {
+            isa = PBXSourcesBuildPhase;
+            files = ('__src_cc_ref_Sources/ProjectDescription/Action+Convenience.swift', '__src_cc_ref_Sources/ProjectDescription/Action.swift', '__src_cc_ref_Sources/ProjectDescription/Author.swift', '__src_cc_ref_Sources/ProjectDescription/InlineTemplate.swift', '__src_cc_ref_Sources/ProjectDescription/License.swift', '__src_cc_ref_Sources/ProjectDescription/Project+Additions.swift', '__src_cc_ref_Sources/ProjectDescription/Project.swift', '__src_cc_ref_Sources/ProjectDescription/Rendered+Convenience.swift', '__src_cc_ref_Sources/ProjectDescription/Rendered.swift', '__src_cc_ref_Sources/ProjectDescription/SubContext.swift', '__src_cc_ref_Sources/ProjectDescription/SwiftVersion.swift', '__src_cc_ref_Sources/ProjectDescription/TemplateName.swift');
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        '__src_cc_ref_Sources/ProjectDescription/Action+Convenience.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Sources/ProjectDescription/Action+Convenience.swift';
+        };
+        '__src_cc_ref_Sources/ProjectDescription/Action.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Sources/ProjectDescription/Action.swift';
+        };
+        '__src_cc_ref_Sources/ProjectDescription/Author.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Sources/ProjectDescription/Author.swift';
+        };
+        '__src_cc_ref_Sources/ProjectDescription/InlineTemplate.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Sources/ProjectDescription/InlineTemplate.swift';
+        };
+        '__src_cc_ref_Sources/ProjectDescription/License.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Sources/ProjectDescription/License.swift';
+        };
+        '__src_cc_ref_Sources/ProjectDescription/Project+Additions.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Sources/ProjectDescription/Project+Additions.swift';
+        };
+        '__src_cc_ref_Sources/ProjectDescription/Project.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Sources/ProjectDescription/Project.swift';
+        };
+        '__src_cc_ref_Sources/ProjectDescription/Rendered+Convenience.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Sources/ProjectDescription/Rendered+Convenience.swift';
+        };
+        '__src_cc_ref_Sources/ProjectDescription/Rendered.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Sources/ProjectDescription/Rendered.swift';
+        };
+        '__src_cc_ref_Sources/ProjectDescription/SubContext.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Sources/ProjectDescription/SubContext.swift';
+        };
+        '__src_cc_ref_Sources/ProjectDescription/SwiftVersion.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Sources/ProjectDescription/SwiftVersion.swift';
+        };
+        '__src_cc_ref_Sources/ProjectDescription/TemplateName.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Sources/ProjectDescription/TemplateName.swift';
+        };
+        ___LinkPhase_ProjectDescription = {
+            isa = PBXFrameworksBuildPhase;
+            files = (_LinkFileRef_Spectre_via_ProjectDescription, _LinkFileRef_PathKit_via_ProjectDescription, _LinkFileRef_Stencil_via_ProjectDescription, _LinkFileRef_Commander_via_ProjectDescription);
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        _LinkFileRef_Spectre_via_ProjectDescription = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Spectre;
+        };
+        _LinkFileRef_PathKit_via_ProjectDescription = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_PathKit;
+        };
+        _LinkFileRef_Stencil_via_ProjectDescription = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Stencil;
+        };
+        _LinkFileRef_Commander_via_ProjectDescription = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_Commander;
+        };
+        _______Confs_ProjectDescription = {
+            isa = XCConfigurationList;
+            buildConfigurations = (___DebugConf_ProjectDescription, _ReleaseConf_ProjectDescription);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Debug;
+        };
+        ___DebugConf_ProjectDescription = {
+            isa = XCBuildConfiguration;
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'ProjectDescription.xcodeproj/ProjectDescription_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; PRODUCT_BUNDLE_IDENTIFIER = 'ProjectDescription'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Debug;
+        };
+        _ReleaseConf_ProjectDescription = {
+            isa = XCBuildConfiguration;
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'ProjectDescription.xcodeproj/ProjectDescription_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; PRODUCT_BUNDLE_IDENTIFIER = 'ProjectDescription'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Release;
+        };
+        __Dependency_ProjectDescription = {
+            isa = PBXTargetDependency;
+            target = ______Target_ProjectDescription;
+        };
+        '__PBXFileRef_ProjectDescription.xcodeproj/Configs/Project.xcconfig' = {
+            isa = PBXFileReference;
+            lastKnownFileType = text.xcconfig;
+            path = 'ProjectDescription.xcodeproj/Configs/Project.xcconfig';
+            sourceTree = '<group>';
+        };
+        _____Configs_ = {
+            isa = PBXGroup;
+            children = ('__PBXFileRef_ProjectDescription.xcodeproj/Configs/Project.xcconfig');
+            name = Configs;
+            sourceTree = '<group>';
+        };
+        _____Sources_ = {
+            isa = PBXGroup;
+            children = (_______Group_Spectre, _______Group_PathKit, _______Group_Stencil, _______Group_Commander, _______Group_CocoapodsProject, _______Group_GitProject, _______Group_LicenseProject, _______Group_PackageProject, _______Group_project, _______Group_ProjectDescription);
+            name = Sources;
+            sourceTree = '<group>';
+        };
+        Dependencies_ = {
+            isa = PBXGroup;
+            children = (_______Group_Commander, _______Group_Spectre, _______Group_PathKit, _______Group_Stencil);
+            name = Dependencies;
+            sourceTree = '<group>';
+        };
+        ____Products_ = {
+            isa = PBXGroup;
+            children = (_____Product_Spectre, _____Product_PathKit, _____Product_Stencil, _____Product_Commander, _____Product_CocoapodsProject, _____Product_GitProject, _____Product_LicenseProject, _____Product_PackageProject, _____Product_project, _____Product_ProjectDescription);
+            name = Products;
+            sourceTree = '<group>';
+        };
+        _______Debug_ = {
+            isa = XCBuildConfiguration;
+            baseConfigurationReference = '__PBXFileRef_ProjectDescription.xcodeproj/Configs/Project.xcconfig';
+            buildSettings = {};
+            name = Debug;
+        };
+        _____Release_ = {
+            isa = XCBuildConfiguration;
+            baseConfigurationReference = '__PBXFileRef_ProjectDescription.xcodeproj/Configs/Project.xcconfig';
+            buildSettings = {};
+            name = Release;
+        };
+        ___RootConfs_ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (_______Debug_, _____Release_);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Debug;
+        };
+    };
+}
