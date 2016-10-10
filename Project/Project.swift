@@ -1,4 +1,9 @@
+import Foundation
 import ProjectDescription
+import LicenseProject
+import PackageProject
+import CocoapodsProject
+import GitProject
 
 let project = Project(
     name: "Project",
@@ -13,12 +18,12 @@ let project = Project(
 )
 
 project.onInit(perform:
-    .git(.setup()) // git init
-    .swiftenv(), // must be executed before .package
-    .package(
+    .git(perform: .setup()), // git init
+    //.swiftenv(), // must be executed before .package
+    .package(perform:
         .setup(), // swift package init
         .linuxMain()
-    )
+    ),
     // .xcode(
     //     .playground(),
     //     .workspace(files:
@@ -30,11 +35,11 @@ project.onInit(perform:
 )
 
 project.onChange(perform:
-    .swiftenv(),
-    .git(.gitignore())
+    //.swiftenv(),
+    .git(perform: .gitignore()),
     .license(),
-    .cocoapods(.podspec(format: .json)),
-    .package(.generateProject())
+    .cocoapods(perform: .podspec(format: .json)),
+    .package(perform: .generateXcodeproj())
     // .jazzy(),
     // .travis()
 )
