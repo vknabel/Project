@@ -26,8 +26,8 @@ public extension Project {
         on(subCommand, actions: actions)
     }
 
-    public func onInit(perform actions: Action...) {
-        on("init", actions: actions)
+    public func create(perform actions: Action...) {
+        on("create", actions: actions)
     }
 
     public func onChange(perform actions: Action...) {

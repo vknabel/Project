@@ -35,6 +35,9 @@ public extension TemplateName {
     public static var ofl: TemplateName {
         return TemplateName(rawValue: prefix + "OFL-1.1.stencil")!
     }
+    public static var proprietary: TemplateName {
+        return TemplateName(rawValue: prefix + "Proprietary.stencil")!
+    }
     public static var unlicense: TemplateName {
         return TemplateName(rawValue: prefix + "Unlicense.stencil")!
     }

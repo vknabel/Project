@@ -1,0 +1,25 @@
+{
+  "name": "{{ name }}",
+  "version": "{{ version }}",
+  "description": "{{ summary }}",
+  "main": "{{ main }}",
+  "scripts": {
+    {% for script in scripts %}"{{ script.key }}": "{{ script.value }}"
+    {% endfor %}
+  },
+  "repository": {
+    "type": "{{ repositoryType }}",
+    "url": "{{ source }}"
+  },
+  "keywords": [{% for keyword in keywords %}
+    "{{ keyword }}",{% endfor %}
+  ],
+  "author": "{{ authors.first.name }}",
+  "license": "{{ license.type }}",
+  "dependencies": {{% for dep in dependencies %}
+    "{{ dep.key }}": "{{ dep.value }}",{% endfor %}
+  },
+  "devDependencies": {{% for dep in devDependencies %}
+    "{{ dep.key }}": "{{ dep.value }}",{% endfor %}
+  }
+}

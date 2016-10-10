@@ -16,6 +16,9 @@ let package = Package(
         Target(name: "PackageProject", dependencies: [
             .Target(name: "ProjectDescription")
         ]),
+        Target(name: "NpmProject", dependencies: [
+            .Target(name: "ProjectDescription")
+        ]),
         Target(name: "project", dependencies: [
             .Target(name: "ProjectDescription"),
             .Target(name: "CocoapodsProject"),

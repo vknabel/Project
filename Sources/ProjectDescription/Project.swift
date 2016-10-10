@@ -41,13 +41,13 @@ public final class Project {
     public init(
         name: String,
         version: String,
-        swiftVersions: [SwiftVersion],
+        swiftVersions: [SwiftVersion] = [],
         authors: [Author],
         source: Rendered<URL>,
         license: Rendered<License>,
         socialMedia: Rendered<URL>,
         summary: InlineTemplate,
-        description: InlineTemplate)
+        description: InlineTemplate? = nil)
     {
         self.name = name
         self.version = version
@@ -57,7 +57,7 @@ public final class Project {
         self.license = license
         self.socialMedia = socialMedia
         self.summary = summary
-        self.description = description
+        self.description = description ?? summary
 
         guard let path = CommandLine.arguments.first else { return }
         do {
@@ -100,6 +100,9 @@ public extension Project {
             }
 
             Project.subCommands[command] = arguments
+            if command == "init" {
+                Project.subCommands["init"] = arguments
+            }
         }
     }
 }

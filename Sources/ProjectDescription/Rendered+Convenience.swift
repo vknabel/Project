@@ -40,4 +40,11 @@ public extension Rendered {
             return URL(string: "https://twitter.com/\(name)")!
         }
     }
+
+    public static func facebook(user name: InlineTemplate) -> Rendered<URL> {
+        return Rendered<URL> { context in
+            let name = try name.render(context)
+            return URL(string: "https://facebook.com/\(name)")!
+        }
+    }
 }
