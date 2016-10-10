@@ -3,7 +3,7 @@ import PathKit
 import Stencil
 
 public final class Project {
-    internal static var searchDirectories: [Path] = []
+    internal static var searchDirectories: [Path] = [Path("~/.project/templates/").normalize()] // insert global first
     public internal(set) static var subCommands: [String: [String]] = [:]
 
     public let name: String
@@ -79,10 +79,12 @@ public extension Project {
     public static func main() -> CommandType {
         return command(
             Option("working-dir", Path.current.description),
-            Option("templates-dir", (Path.current + "Package/templates").description),
+            Option("templates-dir", (Path.current + "Project/templates").description),
             Argument("command"),
             VaradicArgument("arguments")
         ) { (workingDir: String, templatesDir: String, command: String, arguments: [String]) in
+            print("working-dir", workingDir)
+            print("templates-dir", templatesDir)
             do {
                 let workingPath = Path(workingDir)
                 try workingPath.mkpath()
@@ -91,17 +93,12 @@ public extension Project {
                 print("Could not create working directory", error)
             }
 
-            do {
-                let templatesPath = Path(templatesDir)
-                try templatesPath.mkpath()
-                Project.addSearchDirectory(templatesPath)
-            } catch {
-                print("Could not create templates directory", error)
-            }
+            let templatesPath = Path(templatesDir)
+            Project.addSearchDirectory(templatesPath)
 
             Project.subCommands[command] = arguments
             if command == "init" {
-                Project.subCommands["init"] = arguments
+                Project.subCommands["create"] = arguments
             }
         }
     }

@@ -9,7 +9,7 @@ public struct TemplateName: RawRepresentable {
     }
 
     internal var prefix: Path? {
-        return Project.searchDirectories.first(where: { ($0 + self.rawValue).exists })
+        return Project.searchDirectories.reversed().first(where: { ($0 + self.rawValue).exists })
     }
     internal var path: Path? {
         guard let prefix = prefix else { return nil }

@@ -17,7 +17,7 @@ let project = Project(
     description: "{{ name }} lets you define all your project meta data and generate custom templates."
 )
 
-project.onInit(perform:
+project.create(perform:
     .git(perform: .setup()), // git init
     //.swiftenv(), // must be executed before .package
     .package(perform:
