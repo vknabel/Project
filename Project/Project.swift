@@ -7,7 +7,7 @@ import GitProject
 
 let project = Project(
     name: "Project",
-    version: "1.0.0",
+    version: "0.1.0",
     swiftVersions: [.swift3_0],
     authors: [Author(name: "Valentin Knabel", email: "develop@vknabel.com")],
     source: .github(user: "vknabel"),
@@ -48,8 +48,8 @@ project.on("push", perform:
     .git(perform:
         .tagAdd(name: "{{ version }}", message: "Release {{ version }}"),
         .push(includeTags: true)
-    ),
-    .cocoapods(perform:
-        .trunkPush()
     )
+    //.cocoapods(perform:
+    //    .trunkPush()
+    //)
 )
